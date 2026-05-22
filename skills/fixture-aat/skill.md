@@ -14,7 +14,7 @@ Extract, filter, curate and normalize tennis interclub fixture data from an AAT 
 
 The skill receives:
 
-* an AAT URL
+* an optional AAT URL
 * optional category preferences
 * optional date overrides
 * optional normalization mappings
