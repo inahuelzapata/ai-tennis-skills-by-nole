@@ -1,0 +1,16 @@
+{
+    "scenario": "same-category-same-time-different-team-variants",
+    "fixtures": [
+      {
+        "category": "+19 - 4ta B",
+        "time": "14:15",
+        "match": "SOLANA A vs Deportes Racionales"
+      },
+      {
+        "category": "+19 - 4ta B",
+        "time": "14:15",
+        "match": "SOLANA B vs Gazcon LTC"
+      }
+    ],
+    "expected_behavior": "do_not_deduplicate"
+  }
