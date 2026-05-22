@@ -46,19 +46,23 @@ The skill acts as a fixture data pipeline.
 
 # Inputs
 
-## Required
+## Optional
 
 ### `url`
 
 AAT / deportivoaat URL to analyze.
 
+If the user does not provide a URL, the skill must automatically use the default URL:
+
+    https://deportivoaat.com.ar/sis/app/vEntidad.php?idEntidad=214
+
+The skill must not ask the user for another URL if this default URL is available.
+
 Example:
 
-```json
-{
-  "url": "https://deportivoaat.com.ar/sis/app/vEntidad.php?idEntidad=214"
-}
-```
+    {
+      "url": "https://deportivoaat.com.ar/sis/app/vEntidad.php?idEntidad=214"
+    }
 
 ---
 
@@ -91,6 +95,24 @@ Default:
 ```
 
 All aliases must be treated as the same club.
+
+---
+
+# URL Resolution Rules
+
+When resolving which AAT URL to use, follow this priority order:
+
+1. User-provided AAT / deportivoaat URL
+2. Default AAT entity URL:
+
+       https://deportivoaat.com.ar/sis/app/vEntidad.php?idEntidad=214
+
+If either one exists, continue the extraction flow normally.
+
+Do not stop execution to ask for another URL unless:
+- the provided/default URL cannot be accessed, or
+- the page cannot be parsed, or
+- the extraction fails completely.
 
 ---
 
