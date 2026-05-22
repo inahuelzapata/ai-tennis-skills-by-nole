@@ -1,0 +1,15 @@
+{
+    "workflow": [
+      "use fixture-aat",
+      "extract next weekend fixtures",
+      "filter categories",
+      "present fixtures to user",
+      "wait for approval",
+      "request logo and background",
+      "generate premium IG Story prompt"
+    ],
+    "categories": [
+      "CABALLEROS +19",
+      "CABALLEROS +30"
+    ]
+  }

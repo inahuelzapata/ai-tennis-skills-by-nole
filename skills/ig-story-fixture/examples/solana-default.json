@@ -1,0 +1,14 @@
+{
+    "background_required": true,
+    "logo_required": true,
+    "fixture_source": "fixture-aat",
+    "categories": [
+      "CABALLEROS +19",
+      "CABALLEROS +30"
+    ],
+    "default_bottom_message": "Muchos éxitos a todos los equipos",
+    "panel_color_source": "dark navy from C and S in club logo",
+    "style": "premium realistic tennis club Instagram Story",
+    "avoid_ai_look": true,
+    "output": "image_generation_prompt"
+  }

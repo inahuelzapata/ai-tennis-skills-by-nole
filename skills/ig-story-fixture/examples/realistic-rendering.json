@@ -1,0 +1,12 @@
+{
+    "realism_rules": {
+      "avoid_ai_look": true,
+      "preserve_real_photography": true,
+      "avoid_fake_hdr": true,
+      "avoid_excessive_glow": true,
+      "avoid_over_sharpening": true,
+      "avoid_plastic_typography": true,
+      "maintain_authentic_instagram_branding": true,
+      "prioritize_realistic_social_media_design": true
+    }
+  }

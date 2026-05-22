@@ -1,0 +1,10 @@
+{
+    "layout_behavior": {
+      "many_matches": true,
+      "reduce_spacing_proportionally": true,
+      "reduce_font_size_slightly": true,
+      "preserve_readability": true,
+      "never_crop_text": true,
+      "group_by_date": true
+    }
+  }
